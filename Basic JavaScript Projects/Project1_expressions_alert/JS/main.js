@@ -23,3 +23,6 @@ var Color = "Blue", Car = "Truck", Fruit = "Apple";
 document.write(Fruit); //Here I am assigning multiple variables within one statement
 
 document.write(3 + 3); //Here I am using an expression
+
+var Sent1 = "This is the beginning of the string", Sent2 = " and this is the end of the string";
+document.write(Sent1 + Sent2); //Here I am concatenating two variables together
