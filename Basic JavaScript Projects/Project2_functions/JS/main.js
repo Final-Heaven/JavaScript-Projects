@@ -8,3 +8,8 @@ function myFunction() { //Creating a function
      sentence += " a lot from this book!"; //Assigning variable "sentence" to string value, and concatenating the string
     document.getElementById("Concatenate").innerHTML = sentence; //The element with the ID will display the concatenated string
 }
+
+function secondFunction(p1, p2) {
+    return p1 * p2;
+}
+document.getElementById("demo").innerHTML = secondFunction(4, 3);
