@@ -9,7 +9,7 @@ function myFunction() { //Creating a function
     document.getElementById("Concatenate").innerHTML = sentence; //The element with the ID will display the concatenated string
 }
 
-function secondFunction(p1, p2) {
-    return p1 * p2;
+function secondFunction() {
+    var number = 35;
+    document.getElementById("Number").innerHTML = number;
 }
-document.getElementById("demo").innerHTML = secondFunction(4, 3);
