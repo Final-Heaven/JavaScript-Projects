@@ -30,11 +30,13 @@ console.log(5 + 7); //Displays output in console in browser
 
 console.log(5 > 7); //Displays in console in browser
 
-document.write(17 == 17); //Boolean logic to check equality
+//Boolean logic to check for equality
 
-document.write(17 == 16); //Boolean logic to check equality
+document.write(17 == 17);
 
-//Checking if value and data types match below
+document.write(17 == 16);
+
+//Checking if value and data types match, returns true/false
 
 document.write(100 === 100);
 
@@ -44,7 +46,7 @@ document.write(100 === "100");
 
 document.write(100 === 82);
 
-//Using AND and OR operators
+//Using AND and OR operators, returns true/false
 
 document.write(10 > 5 && 10 > 3);
 
@@ -54,7 +56,7 @@ document.write(10 > 3 || 10 < 5);
 
 document.write(10 < 3 || 10 > 20);
 
-//Using NOT operator
+//Using NOT operator, returns true/false
 
 function not_function() {
     document.getElementById("not").innerHTML = !(10 == 9);
