@@ -25,7 +25,7 @@ Subtract_2();
 
 ///////////////////////////////////////////////////
 
-function myFunction() { //Gets current time and uses conditional/branching statement
+function myFunction() { //Gets current time and uses if statement
     if (new Date().getHours() > 12) {
         document.getElementById("date").innerHTML = "Good afternoon";
     }
