@@ -5,7 +5,7 @@
 }
 
 #frmMenu {
-    width: 400px;
+    width: 600px;
     height: 200px;
 }
 
@@ -17,6 +17,12 @@
 }
 
 .left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.middle {
     width: 200px;
     height: 200px;
     float: left;
