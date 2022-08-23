@@ -34,3 +34,14 @@ setInterval(function() {
     .end()
     .appendTo('#slideshow');
 }, 3000);
+
+var fruit = {name: "Apple", color: "red", size: "Medium"};
+var JSONstring = JSON.stringify(fruit);
+document.getElementById("myFruit").innerHTML = JSONstring;
+
+var car = '{"manufacturer": "Toyota", "model": "Highlander", "color": "Gray"}';
+var JSONcar = JSON.parse(car);
+document.getElementById("myCar").innerHTML = JSONcar.manufacturer + " " + JSONcar.model;
+
+localStorage.setItem("Color", "Blue");
+document.getElementById("storage").innerHTML = localStorage.getItem("Color");
