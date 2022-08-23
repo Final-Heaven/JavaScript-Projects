@@ -45,3 +45,7 @@ document.getElementById("myCar").innerHTML = JSONcar.manufacturer + " " + JSONca
 
 localStorage.setItem("Color", "Blue");
 document.getElementById("storage").innerHTML = localStorage.getItem("Color");
+
+function doubleFunction() {
+    document.getElementById("double").style.color = "blue";
+}
