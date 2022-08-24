@@ -1,2 +1,5 @@
 # JavaScript-Projects
-This will be where I will store all my JavaScript projects for The Tech Academy
+This is for all my Tech Academy projects utilizing JavaScript.
+
+## Projects
+[To-Do App](todo_app)
